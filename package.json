@@ -1,0 +1,42 @@
+{
+  "name": "stopshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Henrique Ramos",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "jest --verbose --colors"
+  },
+  "dependencies": {
+    "babel-jest": "^20.0.3",
+    "html-webpack-plugin": "^2.29.0",
+    "jest": "^20.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-test-renderer": "^15.6.1",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-mock-store": "^1.2.3",
+    "teaspoon": "^6.6.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "enzyme": "^2.9.1",
+    "jsdom": "^11.1.0",
+    "mocha": "^3.4.2",
+    "react-addons-test-utils": "^15.6.0"
+  }
+}
